@@ -48,9 +48,7 @@ export default class App extends React.Component {
     //this.setState({date: data}))
   }
 
-  firstCard() {
-    return alert("hi!");
-  }
+  actionButton() {}
 
   secondCard() {
     return alert("also works!");
@@ -63,11 +61,11 @@ export default class App extends React.Component {
       return (
         <Wrapper>
           <Logo>mateo.</Logo>
+          <h1 style={{ color: "#999" }}>{todayDate}</h1>
           <CardWrapper type="full">
-            <Card type="long">
-              <P>
-                {todayDate}
-              </P>
+            <Card type="long" onPress={this.actionButton}>
+              <P>{data.actionButtonText}</P>
+              <P>{data.actionButton}</P>
             </Card>
             <Card type="long" onPress={this.firstCard}>
               <P>Other button</P>
