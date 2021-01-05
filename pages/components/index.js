@@ -7,7 +7,7 @@ export default function Components() {
 // logo
 
 export function Logo({ children }) {
-  return <p class="is-size-1">{children}</p>;
+  return <p class="is-size-1 has-text-light">{children}</p>;
 }
 
 // wrappers
