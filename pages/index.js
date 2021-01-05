@@ -6,15 +6,46 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      date: fetch("http://worldclockapi.com/api/json/est/now"),
+      dow: null,
+      year: null,
+      month: null,
+      day: null,
+      hour: null,
+      minute: null,
       page: 0,
     };
   }
 
   componentDidMount() {
-    fetch("http://worldclockapi.com/api/json/est/now")
-      .then((response) => response.json())
-      .then((data) => this.setState({ data }));
+    const { DateTime } = require("luxon");
+    const data = DateTime.local().c;
+
+    console.log(data);
+
+    this.setState({
+      year: data.year,
+      month: data.month,
+      day: data.day,
+      hour: data.hour,
+      minute: data.minute,
+    });
+
+    //  fetch("http://worldtimeapi.org/api/timezone/EST")
+    //    .then((response) => response.json())
+    //    .then((data) => {
+    //      console.log(data);
+    //      var {DateTime } = require('luxon');
+    //      console.log(DateTime.local())
+    //      this.setState({
+    //        dow: data.day_of_week,
+    //        year: null,
+    //        month: null,
+    //        day: data.day_of_year,
+    //        hour: null,
+    //        minute: null,
+    //      });
+    //    });
+    //this.setState({date: data}))
   }
 
   firstCard() {
@@ -25,13 +56,18 @@ export default class App extends React.Component {
     return alert("also works!");
   }
   render() {
-    if (this.state.page == 0) {
+    const data = this.state;
+    const todayDate = data.month + "/" + data.day + "/" + data.year;
+
+    if (data.page == 0) {
       return (
         <Wrapper>
           <Logo>mateo.</Logo>
           <CardWrapper type="full">
             <Card type="long">
-              <P>Date</P>
+              <P>
+                {todayDate}
+              </P>
             </Card>
             <Card type="long" onPress={this.firstCard}>
               <P>Other button</P>
