@@ -10,5 +10,5 @@ export default async () => {
     useFindAndModify: false,
     useCreateIndex: true,
   });
-  console.log('connected to mongodb')
+  console.log('connected to mongodb!')
 };
