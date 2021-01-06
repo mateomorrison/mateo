@@ -21,4 +21,4 @@ yarn dev
 
 ## Questions?
 
-Ask StackOverFlow or Reddit.  
+Ask StackOverFlow or Reddit.
