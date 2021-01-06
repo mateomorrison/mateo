@@ -39,13 +39,13 @@ export default class App extends React.Component {
     //      this.setState({
     //        dow: data.day_of_week,
     //        year: null,
-    //        month: null,
+    //        month: null,F
     //        day: data.day_of_year,
     //        hour: null,
     //        minute: null,
     //      });
-    //    });
-    //this.setState({date: data}))
+    //    });F
+    //  this.setState({date: data}))
   }
 
   actionButton() {}
