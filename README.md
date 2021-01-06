@@ -28,9 +28,9 @@ npm run dev
 yarn dev
 ```
 - Vercel to have a publicly-accessible API. Soon will add authentication, cookies and bla bla bla.
-- TypeScript support added. Will (most-likely) soon rewrite. As of now, we're stuck  with JS.
-- MongoDB to store information
-- Python and R to read the data real-time and use Machine Learning to recommend things based on input (soon!)
+- TypeScript support added. Will (most-likely) soon rewrite. As of now, we're stuck  with JS (which is better anyway)
+- MongoDB to store information (or whatever works)
+- Python and R to read the data real-time and use Machine Learning to recommend things based on input (soon! lol)
 
 ## Questions?
 
