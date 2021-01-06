@@ -2,7 +2,7 @@
 
 # private files
 
-/pages/api/modules/private
+pages/api/modules/private/
 
 # dependencies
 /node_modules
