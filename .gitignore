@@ -36,3 +36,4 @@ yarn-error.log*
 
 # vercel
 .vercel
+pages/api/modules/private/db/index.js
