@@ -12,8 +12,12 @@ export default function mateo({ Component, pageProps }) {
     );
   }
   if (isSignedIn == false) {
-    return <h1>hi</h1>;
+    return <LogInScreen />;
   } else {
     setIsSignedIn(false);
   }
+}
+
+function LogInScreen() {
+  return <></>;
 }
