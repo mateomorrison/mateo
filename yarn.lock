@@ -1643,7 +1643,7 @@ find-up@^4.0.0:
 
 firebaseui@4.7.1:
   version "4.7.1"
-  resolved "https://registry.yarnpkg.com/firebaseui/-/firebaseui-4.7.1.tgz#8e0303d9f733e16b0bfbfa24001ab8bd4bc98038"
+  resolved "https://registry.npmjs.org/firebaseui/-/firebaseui-4.7.1.tgz"
   integrity sha512-wDdo3LLnh9sV1dDKyNgn4M7cKecILosvqvtQE1SUum/R+eXLdN1q1ZRKZ2Lp6ZyP0XDAHrotssS4vJNh4OdwuQ==
   dependencies:
     dialog-polyfill "^0.4.7"
@@ -1669,23 +1669,23 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-framer-motion@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-3.1.4.tgz"
-  integrity sha512-dVxlWwmqGwI/5k57XsjBJMOyk5jvgk/hW/VGvHsgZrETc39cmjYFYRwWXkrdqqCDobhbmFaQcZwXCy8N5yDqIw==
+framer-motion@3.10.3:
+  version "3.10.3"
+  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-3.10.3.tgz"
+  integrity sha512-tHh5MzqSplBZ+j3Z+lZ78e4olckA8E5zJrexSpjUcaxtIFLgpUD227R+qksZw+cP3nvoT22NrlkXG3OUEJOWWw==
   dependencies:
-    framesync "^5.0.0"
+    framesync "5.2.0"
     hey-listen "^1.0.8"
-    popmotion "^9.0.2"
-    style-value-types "^3.2.0"
+    popmotion "9.3.1"
+    style-value-types "4.1.1"
     tslib "^1.10.0"
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
-framesync@5.0.0, framesync@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/framesync/-/framesync-5.0.0.tgz"
-  integrity sha512-wd8t+JsQGisluSv1twiEeDv0aNGpavGb9q7xgIk9fGbcIWkNXF/KVtrjnOrCwBWJuiXxlJfNkcvGudsI32FxYA==
+framesync@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/framesync/-/framesync-5.2.0.tgz"
+  integrity sha512-dcl92w5SHc0o6pRK3//VBVNvu6WkYkiXmHG6ZIXrVzmgh0aDYMDAaoA3p3LH71JIdN5qmhDcfONFA4Lmq22tNA==
 
 from2@^2.1.0:
   version "2.3.0"
@@ -1859,7 +1859,7 @@ he@1.2.0:
 
 hey-listen@^1.0.8:
   version "1.0.8"
-  resolved "https://registry.yarnpkg.com/hey-listen/-/hey-listen-1.0.8.tgz"
+  resolved "https://registry.npmjs.org/hey-listen/-/hey-listen-1.0.8.tgz"
   integrity sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==
 
 hmac-drbg@^1.0.0:
@@ -2475,7 +2475,7 @@ mongoose-legacy-pluralize@1.0.2:
 
 mongoose@5.11.10:
   version "5.11.10"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.11.10.tgz#9a1c88ee91637160847fdc6822ec015400b17fae"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.11.10.tgz"
   integrity sha512-daE2L6VW7WNywv7tL2KUkBViWvODbzr50Of1kJpIbzW3w3N5/TYcgSmhCsEDWfYGQXbun2rdd7+sOdsEC8zQSQ==
   dependencies:
     "@types/mongodb" "^3.5.27"
@@ -2907,14 +2907,14 @@ pnp-webpack-plugin@1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-popmotion@^9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/popmotion/-/popmotion-9.0.2.tgz"
-  integrity sha512-WfSg8IfoUwYIP9uqeqbgncIsMHLAKWqebT2IP1aGAI6gdSJqTPy/H8NvP4ZyDtDCUCx5Yh3Pth/7iUJjIwR7LA==
+popmotion@9.3.1:
+  version "9.3.1"
+  resolved "https://registry.npmjs.org/popmotion/-/popmotion-9.3.1.tgz"
+  integrity sha512-Qozvg8rz2OGeZwWuIjqlSXqqgWto/+QL24ll8sAAc0n71KY/wvN1W4sAASxTuHv8YWdDnk9u9IdadyPo2DGvDA==
   dependencies:
-    framesync "5.0.0"
+    framesync "5.2.0"
     hey-listen "^1.0.8"
-    style-value-types "3.2.0"
+    style-value-types "4.1.1"
     tslib "^1.10.0"
 
 posix-character-classes@^0.1.0:
@@ -3767,10 +3767,10 @@ style-loader@1.2.1:
     loader-utils "^2.0.0"
     schema-utils "^2.6.6"
 
-style-value-types@3.2.0, style-value-types@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.2.0.tgz"
-  integrity sha512-ih0mGsrYYmVvdDi++/66O6BaQPRPRMQHoZevNNdMMcPlP/cH28Rnfsqf1UEba/Bwfuw9T8BmIMwbGdzsPwQKrQ==
+style-value-types@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/style-value-types/-/style-value-types-4.1.1.tgz"
+  integrity sha512-cNLrl6jk+I1T18ZI2KIp/fcqKVuykcNELDrOz7y+TYZR97xmNdN0ewupURvVFnQxVrRJv98TMBq92VMsggq3kw==
   dependencies:
     hey-listen "^1.0.8"
     tslib "^1.10.0"
